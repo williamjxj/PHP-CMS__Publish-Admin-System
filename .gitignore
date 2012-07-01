@@ -1,0 +1,12 @@
+tinymce/
+SpryAssets/
+myresources/
+mycoverages/
+download/
+images/
+jquery-ui-1.8.12.custom/
+plupload/
+resources/
+mysql/
+data/
+test*

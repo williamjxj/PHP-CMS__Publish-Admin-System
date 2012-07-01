@@ -1,0 +1,127 @@
+#contact-pop-overlay {
+	width: 100%;
+	min-height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: url('../images/overlay.png') repeat 0 0;
+	xt-align: center;
+	z-index: 1000;
+}
+#contact-pop-panel-wrapper {
+	margin: 10% auto 0 auto;
+	width: 350px;
+	background: #FFF;
+}
+#contact-pop-panel {
+	min-height: 200px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	position: relative;
+}
+#contact-pop-header {
+	min-height: 30px;
+	line-height: 30px;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	background-color: #777;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+}
+#contact-pop-header .close-overlay {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	background: url('../images/close-overlay.png') no-repeat 1px 1px;
+	overflow: hidden;
+	text-indent: -2000px;
+	outline: none;
+}
+#contact-pop-form {
+}
+#contact-pop-panel .formItem {
+	margin: 7px 20px 7px 20px;
+	text-align: left;
+}
+
+#submitButtons { margin: 0 0 0 50px; }
+#submitButtons input { background: url(../images/popupContact-send.jpg) no-repeat; width: 105px; height: 24px; border: 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin-left: 33px; line-height: 24px; }
+#submitButtons a button { background: url(../images/popupContact-cancel.jpg) no-repeat; width: 105px; height: 24px; border: 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF; line-height: 24px; }
+a#viewListMsg { background: url(../images/popupContact-cancel.jpg) no-repeat; width: 105px; height: 24px; border: 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF; line-height: 24px; display: block; text-align: center; text-decoration: none; margin: 0 auto 0 auto; }
+
+#sentMessage { padding: 15px; }
+#sentMessage p { font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 10px 0 10px 0; }
+p.msgsent { color: #900; font-style: italic; }
+.copyMessage { border: 1px solid #999; color: #666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 0; padding: 10px; }
+select.security { width: 287px; }
+.formItem input.s_norm { background: url(../images/update-profile_btn.jpg) no-repeat; width: 105px; height: 24px; border: none; background-position: 0 0; margin: 0 0 0 100px; cursor: pointer; }
+.formItem input.s_hover { background: url(../images/update-profile_btn.jpg) no-repeat; width: 105px; height: 24px; border: none; background-position: 0 -24px; margin: 0 0 0 100px; cursor: pointer; }
+
+#contact-pop-error {
+	color: red;
+	padding-bottom: 10px;
+	font-size: 80%;
+}
+#contact-pop-panel label {
+	padding: 0 10px 0 0;
+	margin: 0;
+	display: inline;
+}
+#contact-pop-panel .inputText {
+	width: 200px;
+	padding: 2px 5px;
+}
+#contact-pop-panel .inputText_cpass {
+	width: 168px;
+	padding: 2px 5px;
+}
+#contact-pop-panel .inputText_ans {
+	width: 200px;
+	padding: 2px 5px;
+	margin-left: 8px;
+}
+#contact-pop-panel textarea {
+	width: 300px;
+	margin-top: 5px;
+	padding: 5px;
+}
+#contact-pop-panel .close-overlay {
+	font-size: 12px;
+	outline: none;
+}
+#contact-pop-loading-gif-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+}
+#contact-pop-loading-gif {
+	margin: 132px auto 0 auto;
+}
+/****** ie6 stuff ********/
+
+* html #contact-pop-overlay {
+	background-image: url('../images/overlay-ie6.png');
+	height: 100%;
+	position: absolute;
+}
+* html #contact-pop-panel {
+	height: 200px;
+}
+* html #contact-pop-header {
+	height: 30px;
+}
+* html #contact-pop-header .close-overlay {
+	background-image: url('../images/close-overlay-ie6.png');
+}
+#main {
+	padding: 20px;
+	width: 800px;
+	margin: 0 auto;
+	background: #FFF;
+}

@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+#myCoverage {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#myCoverage h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	background: url(../images/book_open.png) no-repeat;
+	padding: 7px 0 7px 38px;
+	color: #38687E;
+}
+#myCoverage h5 {
+	margin: 0;
+	padding: 20px 0 0 0;
+	font-size: 14px;
+	color: #38687E;
+	text-decoration: underline;
+}
+#myCoverage p {
+	font-size: 12px;
+	color: #686868;
+	padding: 5px 0;
+	margin: 0;
+}
+#myCoverage p.in20px { padding-left: 20px; }
+#myCoverage p a {
+	color: #009EE7;
+	text-decoration: none;
+}
+#myCoverage p a:hover { text-decoration: underline; }
+#myCoverage p.bold, .bold { font-weight: bold; }
+#myCoverage p.italicBold, .italicBold {
+	font-style: italic;
+	font-weight: bold;
+}
+#myCoverage ul {
+	margin: 0;
+	padding: 0 0 10px 0;
+	list-style: none;
+	font-size: 12px;
+	color: #686868;
+}
+#myCoverage ul li {
+	background: url(../images/greater-than.png) no-repeat;
+	background-position: 0 0.4em;
+	line-height: 1.3em;
+	margin: 0 0 0 20px;
+	padding: 2px 2px 2px 16px;
+}
+#myCoverage ul li ul { padding: 0; }
+#myCoverage ul li ul li {
+	background: url(../images/greater-than2.png) no-repeat;
+	background-position: 0 0.4em;	
+}
+#myCoverage ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	color: #686868;
+}
+
+.sob_table {
+	font-size: 12px;
+	color: #686868;
+	width: 500px;
+}
+.sob_table tr.tabLabel {
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #f4f4f4;
+}
+.sob_table tr td {
+	vertical-align: top;
+	padding: 3px;
+}
+.sob_table tr td.page { font-size: 12px; }
+.sob_table tr td.tabList {
+	background: url(../images/greater-than.png) no-repeat;
+	background-position: 10px 5px;
+	padding-left: 24px;
+}
+
+.hba_table {
+	width: 415px;
+	font-size: 12px;
+	color: #686868;
+}
+.hba_table tr.tabLabel {
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #686868;
+	color: #fbfbfb;
+}
+.hba_table tr td {
+	text-align: center;
+	vertical-align: top;
+	padding: 3px;
+}
+
+#mcSide {
+	float: right;
+	width: 229px;
+	margin: 0 0 20px 20px;
+}
+#mcSide p {
+	background: url(../images/mc_icon_your-plan_booklet.jpg) no-repeat;
+	background-position: 0 0.5em;
+	padding-left: 22px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #6d98ac;
+}
+#mcSide .top, #mcSide .bottom {
+	background: url(../images/mc_sidemenu-bg.png) no-repeat;
+	width: 229px;
+	height: 5px;
+}
+#mcSide .top { background-position: 0 0; }
+#mcSide .bottom { background-position: 0 -5px; }
+#mcSide .center {
+	width: 197px;
+	padding: 5px 15px;
+	background-color: #eeeeee;
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+}
+#mcSide .center ul { padding: 0; }
+#mcSide .center ul li {
+	background: url(../images/mc_listarrow.jpg) no-repeat;
+	padding-left: 15px;
+	background-position: 0 0.5em;
+	margin: 0;
+}
+#mcSide .center ul li a {
+	font-size: 11px;
+	color: #6b6b6b;
+	text-decoration: none;
+}
+#mcSide .center ul li a:hover, #mcSide .center ul li a.mcActive {
+	text-decoration: underline;
+	color: #23739a;
+}
+
+.break20px { padding: 10px 0; }
+.break10px { padding: 5px 0; }

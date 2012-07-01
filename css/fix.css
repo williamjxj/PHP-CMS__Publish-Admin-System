@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.notice {
+	font-size: 12px;
+	color: #686868;
+	background-color: #d4ffcf;
+	border: 1px solid #b9ecb3;
+	padding: 2px 0;
+	text-align: center;
+}
+.w270px { width: 270px; }
+.posRel { position: relative; }
+.loginTop {
+	[if ! IE 7] top: -10px;
+	[if IE 7] top: -29px;
+}
+
+[if Webkit] .notice {
+	font-size: 12px;
+	color: #686868;
+	background-color: #d4ffcf;
+	border: 1px solid #b9ecb3;
+	padding: 2px 0;
+	text-align: center;
+}
+[if Webkit] .w270px { width: 270px; }
+[if Webkit] .posRel { position: relative; }
+[if Webkit] .loginTop {
+	top: -10px;
+}

@@ -1,0 +1,131 @@
+/* Used for vertical nav menu */
+#navcontainer {
+	margin-left: 0px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+#navcontainer ul {
+	margin: 0;
+	padding: 1px;
+	list-style-type: none;
+	font-family: "verdana", "arial", "Helvetica", "sans-serif";
+	font-size: 14px;
+}
+#navcontainer li {
+	margin: 0;
+}
+#navcontainer a {
+	display: block;
+	padding: 5px 10px;
+	width: 140px;
+	color: #000;
+	background-color: #ADC1AD;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+	font-weight: bold;
+	font-size: .8em;
+	background-image: url(../images/vertical06.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#navcontainer a:hover {
+	color: #000;
+	background-color: #889E88;
+	text-decoration: none;
+	border-top: 1px solid #333;
+	border-left: 1px solid #333;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background-image: url(../images/vertical06a.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#navcontainer ul li ul{
+	width: 180px;
+}
+#navcontainer ul ul li {
+	margin: 0;
+}
+#navcontainer ul ul a {
+	display: block;
+	padding: 5px 5px 5px 30px;
+	/*width: 140px;*/
+	color: #000;
+	background-color: #C5D8C5;
+	text-decoration: none;
+	font-weight: normal;
+}
+#navcontainer ul ul a:hover {
+	color: #000;
+	background-color: #889E88;
+	text-decoration: none;
+	font-weight: normal;
+}
+#navcontainer ul a:visited {
+	color: #006600;
+}
+.menustyle1 {
+	border: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #FFFFFF #000000 #000000 #FFFFFF
+}
+.menustyle2 {
+	border:solid;
+	border-width:1px;
+	border-color:#ccccff;
+}
+.menustyle3 {
+	filter:alpha(opacity=60);
+	background-color: #EDEBF7;
+}
+.menustyle4 {
+	filter:alpha(opacity=100);
+	background-color: #BADCF4;
+}
+#reminder_list {
+	top: 10px;
+	left: 0px;
+}
+#reminder_list ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-image: none;
+}
+#reminder_list li {
+	font-size: 12px;
+	line-height: 1.4em;
+	list-style-image: none;
+	list-style-type: decimal;
+	font-family: "Courier New", Courier, monospace;
+	padding-left: 2px;
+	list-style-position: inside;
+}
+#reminder_list li a:link, #reminder_list li a:visited {
+	text-decoration:none;
+	color:#0C00FF;
+}
+#reminder_list li a:active, #reminder_list li a:hover {
+	text-decoration:underline;
+	color:#ff0000;
+	font-weight:bold
+}
+h3 {
+    margin-top:20px;
+    margin-bottom:2px;
+    display:block;
+    padding-left:6px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #693;
+    font-size: 14px;
+	width: 140px;
+	overflow: hidden;
+}
+.head {
+	background-image: url(../images/box_bg.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}

@@ -1,0 +1,416 @@
+@charset "utf-8";
+/* CSS Document */
+
+#programs {
+	margin: 0;
+	padding: 0 2% 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	[if IE] width: 100%;
+}
+#programs h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #38687e;
+	margin: 0;
+	padding: 0;
+}
+input#f_title {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	font-size: 12px;
+	color: #686868;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 5px;
+	width: 80%;
+}
+input#input_file {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	font-size: 12px;
+	color: #686868;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 5px;
+}
+input.inputTitle {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	font-size: 12px;
+	color: #686868;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 5px;
+	margin-bottom: 7px;
+	width: 100%;
+}
+#programs h1 span.span1 a {
+	background: url(../images/add.png) no-repeat;
+	padding-left: 20px;
+	margin-left: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #38687e;
+}
+#programs h1 span.span2 a {
+	background: url(../images/pencil.png) no-repeat;
+	padding-left: 20px;
+	margin-left: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #38687e;
+}
+#programs p {
+	font-size: 14px;
+	color: #686868;
+}
+#programs p.box textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	color: #686868;
+	padding: 5px;
+	margin-bottom: 3px;
+	min-height: 50px;
+	width: 100%;
+}
+#programs div.span1 a {
+	font-size: 12px;
+	font-weight: bold;
+}
+#programs div.span1 a:hover { color: #38687E; }
+#programs div.span1 a.addNew {
+	background: url(../images/note_add.png) no-repeat;
+	padding-left: 20px;
+	margin-right: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #686868;
+	text-decoration: underline;
+}
+#programs div.span1 a.hideShow {
+	background: url(../images/hidden.png) no-repeat;
+	padding-left: 20px;
+	font-style: normal;
+	font-weight: bold;
+	color: #686868;
+	text-decoration: underline;
+}
+#programs form#f_new label, form#f_form label, form#f_form_3 label, form#form_uploader div label {
+	font-size: 12px;
+	font-weight: bold;
+	color: #686868;
+}
+form#f_form label {	font-family: Arial, Helvetica, sans-serif; }
+form#f_form div a, form#f_form_3 div a {
+	font-size: 12px;
+	color: #38687E;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+form#f_form div a:hover, form#f_form_3 div a:hover { text-decoration: underline; }
+#programs ol {
+	margin: 0;
+	[if ! IE] padding: 10px 0 0 24px;
+	[if IE] padding: 10px 0 0 30px;
+}
+#programs ol li {
+	font-size: 12px;
+	color: #686868;
+	padding: 5px 17px;
+	[if IE] padding: 5px 17px 0 17px;
+}
+[if ! IE] .marB1px { margin-bottom: 1px }
+[if IE] #programs ol li.addPad { padding: 0 17px; }
+[if IE] #programs ol li div.listWrap {
+	padding: 0 0 5px 0;
+}
+.uiwrap { position: absolute; }
+.marT7px { margin-top: 7px; }
+.marB7px { margin-bottom: 7px; }
+[if IE] form#form_uploader fieldset {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+a.plupload_add, a.plupload_start { font-family: Arial, Helvetica, sans-serif; }
+[if IE] .TabbedPanelsContent { margin-top: 0 !important; }
+span.ui-icon {
+	position: absolute;
+	[if ! IE] top: -1;
+	left: -17px;
+}
+span a.hide {
+	background: url(../images/192.png) no-repeat;
+	padding-left: 20px;
+	font-size: 12px;
+	margin-left: 5px;
+	width: 16px;
+	height: 16px;
+}
+#programs ol li form { margin: 0 0 5px 0; }
+.marB10px { margin-bottom: 10px; }
+#programs ol li div blockquote {
+	background-color: #fcfcfc;
+	border: 1px solid #e4e4e4;
+	font-size: 12px;
+	font-weight: normal;
+	color: #686868;
+	margin: 5px 0 0 0;
+	padding: 10px;
+	display: none;
+}
+#programs ol li div blockquote a {
+	color: #38687E;
+	text-decoration: underline;
+}
+#programs ol li div blockquote a:hover { font-weight: bold; }
+
+#programs ol li div span.span1 {
+	float: right;	
+}
+[if IE]#programs ol li div span.span1 {
+	position: relative;
+	top: -15px;
+}
+[if Opera]#programs ol li div span.span1 {
+	position: relative;
+	top: -15px;
+	list-style: none;
+}
+#programs ol li div.action {}
+#programs ol li div.action span.span1 {
+	float: right;
+	position: relative;
+	top: -15px;
+}
+
+#programs ol li div span.span1 a {
+	font-size: 12px;
+	color: #686868;
+	text-decoration: underline;
+}
+#programs span.span1 a.edit {
+	background: url(../images/pams-edit-10px.png) no-repeat;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+#programs span.span1 a.delete {
+	background: url(../images/pams-delete-10px.png) no-repeat;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+
+#programs ol li div blockquote h2 {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+#programs ol li div blockquote h4 {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+#programs ol li div blockquote p {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	padding: 5px 0;
+}
+#programs ol li div blockquote ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+#programs ol li div blockquote ul li {
+	background: url(../images/list-arrow-right.png) no-repeat;
+	background-position: 0 0.3em;
+	margin: 4px 0;
+	padding: 0 0 0 15px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #686868;
+}
+#programs form#f_new { padding-top: 10px; }
+#programs ol li form input.title, #programs form#f_new input.title, form#form_uploader div input.title {
+	font-size: 11px;
+	color: #686868;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 5px;
+	margin-bottom: 7px;
+	width: 100%;
+}
+form#form_uploader div textarea.comment {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	padding: 5px;
+	width: 100%;
+}
+#programs form#f_new input.text { margin-bottom: 10px; }
+input.update, input.reset, input.close, input.add, input.submit, input.save, input.cancel, #programs h1 span.span1 input#f_submit {
+	background: url(../images/button-progs.png) no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	border: 0;
+	width: 67px;
+	height: 22px;
+}
+input:hover.update, input:hover.reset, input:hover.close, input:hover.add, input:hover.submit, input:hover.save, input:hover.cancel, #programs h1 span.span1 input:hover#f_submit {
+	background-position: 0 -22px;
+}
+input.export {
+	font-size: 13px;
+	color: #FFF;
+	background: url(../images/new_btn-create-admin-user.png) no-repeat;
+	background-position: 0 0;
+	width: 126px;
+	height: 24px;
+	border: 0;
+	cursor: pointer;
+}
+input:hover.export { background-position: 0 -24px; }
+input.f_submit {
+	/*background: url(../images/accept16.png) no-repeat;*/
+	background: url(../images/pencil.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	border: 0;
+	cursor: pointer;
+}
+
+/* mycoverage */
+ul.TabbedPanelsTabGroup li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #686868;
+}
+select#select_file {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	height: auto;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	color: #686868;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+img.iconHelp {
+	position: relative;
+	top: 5px;
+}
+textarea#notes, textarea.note1 {
+	border: 1px solid #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 3px;
+	margin-bottom: 10px;
+	color: #686868;
+	width: 100%;
+}
+#div_form form label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #686868;
+}
+/*span.mceEditor table { margin-bottom: 10px; }
+table.mceLayout tr.mceLast { display: none; }*/
+
+/* SIDE LEFT NAVIGATION */
+#welcome {
+	background: url(../images/icon-caltime.png) no-repeat;
+	padding-left: 25px;
+	font-size: 11px;
+	color: #FFF;
+	min-height: 20px;
+}
+td.divBg { border-right: 1px solid #cdcdcd; }
+#sideBarLeft {}
+.bodyStyle {
+	margin: 0;
+	[if IE] padding: 0;
+}
+.sidebarBox {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px 4px;
+	background-color: #406e84;
+	width: 184px;
+	[if ! IE] margin: 0 auto;
+	[if IE] margin-left: 4px;
+	[if IE] width: 192px;
+}
+.widthsize130 { width: 130px; }
+ul.sideLeftNav {
+	margin: 7px 0;
+	padding: 0;
+	list-style: none;
+}
+ul.sideLeftNav li { margin-bottom: 1px; }
+ul.sideLeftNav li a {
+	font-size: 11px;
+	color: #303030;
+	text-decoration: none;
+	background: url(../images/sidebar-btn.jpg) no-repeat;
+	background-position: 0 0;
+	padding: 0 15px;
+	[if ! IE] width: 154px;
+	height: 26px;
+	line-height: 26px;
+	display: block;
+}
+ul.sideLeftNav li a:hover, ul.sideLeftNav li.active a {
+	background-position: 0 -26px;
+	color: #315879;
+}
+a.needHelp {
+	font-size: 11px;
+	color: #FFF;
+	margin-left: 114px;
+	background: url(../images/043.png) no-repeat;
+	background-position: 0 2px;
+	padding-left: 12px;
+}
+/* end of SIDE LEFT NAVIGATION */
+
+/* specials */
+/*#programs .TabbedPanelsContentGroup { min-width: 1115px; }*/
+.tabNotes_mc, .tabComment_dl, .tabComment_remit { min-width: 180px; }
+.tabOptions_mc { min-width: 53px; }
+.tabType_remit { min-width: 35px; }
+.tabDownloads_remit { min-width: 60px; }
+.tabPanelWidth_mc, .tabPanelWidth_dl { min-width: 920px; }
+.tabPanelWidth_rm, .tabPanelWidth_cu, .tabPanelWidth_id, .tabPanelWidth_ua { min-width: 1120px; }
+[if IE] fieldset { text-align: center; }
+.padT5px { padding-top: 5px; }
+.padB5px { padding-bottom: 5px; }
+#livetip {
+  position: absolute;
+  /*background-color: #cfc;
+  border: 2px solid #c9c;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;*/
+}
+#livetip div {
+	font-size: 12px;
+	font-weight: bold;
+	color: #406e84;
+	background-color: #fafff9;
+	padding: 5px;
+	border: 1px solid #406e84;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
